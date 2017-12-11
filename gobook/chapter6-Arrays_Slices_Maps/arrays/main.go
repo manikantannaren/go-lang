@@ -34,4 +34,16 @@ func main(){
         total += value
     }
     fmt.Println(total / float64(len(y)))
+
+    //declare and initialize with values
+    // last comma is needed (after 82)
+    z := [4]float64{
+     98,
+     93,
+     77,
+     82,
+     // 83,
+    }
+
+    fmt.Println(z)
 }
