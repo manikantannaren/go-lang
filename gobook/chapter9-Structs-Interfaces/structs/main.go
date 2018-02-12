@@ -16,6 +16,8 @@ func main() {
 
 	h1 := new(Humanoid)
 	h1.name = "Marvin"
+	h1.version = "1.1"
+	fmt.Println("Hi, my version is", h1.version)
 	h1.Talk()
 }
 func calculateArea(circle *Circle) (retArea float64) {
@@ -48,4 +50,5 @@ type Humanoid struct {
 
 func (p *Person) Talk() {
 	fmt.Println("Hi, my name is", p.name)
+
 }
